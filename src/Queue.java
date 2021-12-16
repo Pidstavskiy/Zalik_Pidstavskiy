@@ -7,6 +7,7 @@ class Queue<T> {
     private int front;
     private int rear;
     private ArrayList<T> list;
+    private String name;
 
     public Queue(int maxSize) {
         this.maxSize = maxSize;
